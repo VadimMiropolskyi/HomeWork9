@@ -11,6 +11,7 @@ header, main, footer {
 
 .navigation-menu {
     display: flex;
+    width: 94%;
 }
 
 .img-logo {
@@ -25,7 +26,7 @@ header, main, footer {
 
 .items-menu {
     align-self: center;
-    width: 70%;
+    width: 76%;
 }
 
 .items-menu a {
@@ -41,6 +42,7 @@ header, main, footer {
     position: relative;
     display: inline-block;
     align-self: center;
+    text-align: left;
 }
 
 .item-language {
