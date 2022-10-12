@@ -4,26 +4,29 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+header, main, footer {
+    width: 90%;
+    margin: auto;
+}
+
 .navigation-menu {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
 }
 
 .img-logo {
     height: 6vw;
-    margin-left: 3%;
-    width: 15%;
+    text-align: left;
+    width: 18%;
+
 }
 
 .img-logo img {
-    width: 13vw;
+    width: 12vw;
 }
 
 .items-menu {
     align-self: center;
-    margin-left: 6%;
-    width: 85%;
+    width: 70%;
 }
 
 .items-menu a {
@@ -32,12 +35,13 @@ body {
     text-transform: uppercase;
     color: #000000;
     text-decoration: none;
-    margin-right: 1%;
+    margin-right: 2%;
 }
 
 .btn-language {
     position: relative;
     display: inline-block;
+    align-self: center;
 }
 
 .item-language {
@@ -76,14 +80,14 @@ body {
     width: 170%;
 }
 
-.btn-language-content a {
+.btn-language-content> a {
     color: black;
     padding: 1% 0 1% 18%;
     text-decoration: none;
     display: block;
 }
 
-.btn-language-content a:hover {
+.btn-language-content> a:hover {
     background-color: #f1f1f1
 }
 
@@ -92,7 +96,7 @@ body {
 }
 
 .menu-list {
-    margin: 3% 0 0 5%;
+    margin: 3% 0 0 1%;
 }
 
 .menu-list p {
@@ -121,8 +125,9 @@ body {
     text-shadow: 2px black;
 }
 
-main {
+.content {
     display: flex;
+    padding-top: 2%;
 }
 
 .left-side {
@@ -133,7 +138,7 @@ main {
     font-size: 2.1vw;
     font-weight: 900;
     text-transform: uppercase;
-    margin: 15% 0 0 25%;
+    margin-top: 15%;
 }
 
 .block-information {
@@ -142,9 +147,9 @@ main {
 
 .block-main-photo {
     background-color: #AEAEAE;
-    width: 87%;
+    width: 93%;
     height: 25vw;
-    margin: 1% 0 0 3%;
+    margin-top: 1%;
     position: relative;
 }
 
@@ -156,14 +161,13 @@ main {
 }
 
 .block-information h1 {
-    margin: 5% 0 3% 3%;
+    margin: 5% 0 3% 0%;
     font-size: 1.2vw;
     font-weight: 600;
 }
 
 .block-content {
-    width: 87%;
-    margin: 0 0 0 3%;
+    width: 93%;
 }
 
 .block-content p {
@@ -184,15 +188,7 @@ main {
     margin: 0;
 }
 
-.img-logo {
-    height: 6vw;
-    margin-left: 3%;
-    width: 15%;
-}
 
-.img-logo img {
-    width: 13vw;
-}
 
 .block-contacts p {
     width: 17%;
